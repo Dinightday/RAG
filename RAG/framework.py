@@ -50,4 +50,4 @@ def web():
                         resposta_ia = chat(prompt_ia, filtro=st.session_state.lista_memoria)
                         st.write(resposta_ia)
                 time_b = time()
-                st.info(f"Tempo de resposta: {time_b - time_a}")
+                st.info(f"Tempo de resposta: {time_b - time_a}:.2f")
